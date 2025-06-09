@@ -15,8 +15,8 @@ public:
     void PersepectiveTransform(cv::Mat& img_base);
     ~ArResource();
 
-    std::string image_name = "yuharo";
-    std::string image_type = "window";
+    std::string image_name = "image.png";
+    std::string image_type = "image";
     float position_x = 0;
     float position_y = 0;
     float width = 0.25f;
